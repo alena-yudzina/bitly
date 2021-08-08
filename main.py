@@ -10,9 +10,7 @@ class WrongUrlException(Exception):
 
 
 def parse_cli_args():
-    ''' parse arguments from cli
 
-    '''
     parser = argparse.ArgumentParser(description='make bitlink or count bitlink clicks')
     parser.add_argument('link', help='set link')
     args = parser.parse_args()
